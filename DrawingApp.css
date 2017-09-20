@@ -1,0 +1,69 @@
+body
+{
+    text-align: center;
+    background: url(images/School_Board_Background-1786472469.png) center center fixed;
+    background-size: cover;
+}
+
+#header
+{
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    margin: 10px auto;
+    color: white;
+    font-size: 4em;
+}
+
+.inputContainer
+{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.input
+{
+    height: 30px;
+    font-size: 1.5em;
+}
+
+
+#slider
+{
+    margin: 10px auto;
+}
+
+#brush
+{
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 0 auto;
+
+}
+
+#brushSize
+{
+    position: relative;
+}
+
+#container
+{
+    width: 1200px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+
+#paint
+{
+    background-color: white;
+    cursor: crosshair;
+}
+
+.eraseMode
+{
+    background-color: red;
+    color:white;
+}

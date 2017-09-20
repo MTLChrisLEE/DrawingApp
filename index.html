@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <link rel="stylesheet" href="DrawingApp.css">
+</head>
+<body>
+
+    <div id="header">Drawing App</div>
+    <div class="inputContainer">
+        <div id="colorInput" class="input">
+            <input type="color" list id="paintColor">
+        </div>
+
+        <div id="brushSize" class="input">
+            <div id="brush">
+
+            </div>
+        </div>
+
+        <div class="input">
+            <div id="slider"></div>
+        </div>
+
+    </div>
+
+
+    <div id="container">
+        <canvas id="paint" width="1200px" height="500px"></canvas>
+
+    </div>
+
+    <div id="inputContainer2">
+        <div class="buttons">
+            <button id="erase"> Erase </button>
+            <button id="save"> Save </button>
+            <button id="reset"> Reset </button>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="DrawingApp.js"></script>
+</body>
+</html>
